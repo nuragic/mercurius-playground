@@ -1,0 +1,22 @@
+{
+  "name": "mercurius-playground",
+  "version": "1.0.0",
+  "description": "Playing around with mercurius.",
+  "author": "Andrea Puddu <me@nuragic.io>",
+  "license": "MIT",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "fastify": "^3.25.3",
+    "mercurius": "^9.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.6.0",
+    "eslint-config-prettier": "^8.3.0",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.5.1"
+  }
+}
